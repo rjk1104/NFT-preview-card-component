@@ -74,6 +74,9 @@ body{
   border:1px solid white;
   border-radius: 50%;
 }
+.items .imgsource{
+    margin-left: 20px;
+}
 
 .items .contentsource p{
     margin-top: 30px;
