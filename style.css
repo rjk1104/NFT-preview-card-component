@@ -28,7 +28,7 @@ body {
 }
 .card-body p {
   margin: 20px 20px 0px 20px;
-  color: gray;
+  color: hsl(215, 51%, 70%);
 }
 .card-bottom {
   display: inline-flex;
@@ -57,7 +57,7 @@ body {
   margin: 20px;
 }
 .card-footer hr {
-  border: 1px solid gray;
+  border: 1px solid hsl(215, 51%, 70%);
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -78,4 +78,10 @@ body {
 
 .items .contentsource p {
   margin-top: 30px;
+  color:hsl(215, 51%, 70%);
+}
+
+.items .contentsource span{
+    color:white;
+    font-weight: bold;
 }
