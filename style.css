@@ -1,0 +1,81 @@
+body{
+    color:white;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    max-width: 433px;
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin:100px auto;
+     
+
+}
+.card-image{
+    
+}
+.card-image img{
+    margin: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+    height:auto;
+}
+.card-body,.card-bottom,.card-footer,.card-image{
+    margin: 20px;
+    
+}
+.card-body h2{
+    margin: 20px 20px 0px 20px;
+}
+.card-body p{
+    margin: 20px 20px 0px 20px;
+    color:gray;
+}
+.card-bottom{
+
+    display:inline-flex;
+}
+.card-bottom .first{
+    margin: 0 0px 0px 20px;
+    padding-right: 50px;
+    margin-right: 10px;
+    color:hsl(178, 100%, 50%);
+}
+.card-bottom .first img{
+    margin-right: 5px;
+}
+.card-bottom .second{
+    margin-right: 20px;
+    color:gray;
+}
+.card-bottom .second img{
+    margin-left: 80px;
+    margin-right: 5px;
+}
+.card-footer{
+    padding-bottom: 20px;
+    
+}
+.card-footer p{
+    margin: 20px;
+}
+.card-footer hr{
+    border: 1px solid gray;
+}
+.items{
+    align-self: center;
+    display: inline-flex;
+}
+
+.items .imgsource img{
+  max-width: 50px;
+  height:auto;
+  margin-top: 20px;
+  border:1px solid white;
+  border-radius: 50%;
+}
+
+.items .contentsource p{
+    margin-top: 30px;
+}
+
